@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:ital,wght@0,500;1,700&display=swap');
+
+
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+*{
+   text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding-top: 150px;
+
+}
+.right{
+    box-sizing: border-box;
+    height: 600px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+ background-color: white;
+ padding: 40px;
+ margin-bottom: 4px;
+
+}
+.imagem{
+height: 600px;
+width: 400px;
+    border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+}
+.perfume{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(228, 12%, 48%);
+        font-size: 16px;
+        margin-bottom: 30px;
+        
+
+}
+.text{
+   line-height: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 40px;
+    color:hsl(228, 12%, 48%);
+    margin-bottom: 40px;
+}
+
+p{
+    font-weight: 500;
+font-family: Montserrat;
+}
+h3{
+    line-height: 35px;
+    font-weight: 700;
+   font-family: Fraunces;
+   font-size: 40px;
+}   
+.preco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.t149{
+   
+    font-size: 40px;
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+}
+.t169{
+    margin-right: 70px;
+    color:hsl(228, 12%, 48%);
+
+   font-family: Montserrat;
+    text-decoration: line-through;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+   height: 50px;
+    width: 300px;
+    margin-top: 30px;
+   background-color: hsl(158, 36%, 37%);
+   color: white;
+    font-family: Montserrat;
+    border-style: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+.carrinho{
+    margin-right: 10px;
+}
+button:hover{
+
+    background-color: hsl(158, 36%, 20%);
+}
